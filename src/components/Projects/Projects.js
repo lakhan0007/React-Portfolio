@@ -60,8 +60,8 @@ function Projects() {
               isBlog={false}
               title="Analog Clock"
               description="An analog clock project can also be created using React JS, a popular JavaScript library for building user interfaces. Here's how you can create an analog clock project using React JS:"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              ghLink="https://github.com/lakhan0007/Analog-clock_project-21"
+              demoLink="https://lakhan0007.github.io/Analog-clock_project-21/"
             />
           </Col>
 
