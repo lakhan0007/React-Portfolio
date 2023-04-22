@@ -8,6 +8,7 @@ import Webtrack from "../../Assets/Projects/Webtrack.png";
 import Clock from "../../Assets/Projects/clock1.jpg";
 import Sticky from "../../Assets/Projects/sticky-notes.png";
 import Music from "../../Assets/Projects/Music.png";
+import Game from "../../Assets/Projects/Game.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -89,12 +90,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Game}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Pairing Game"
+              description="A Pairing Game ReactJS project is a web-based game application that challenges users to match pairs of cards that are randomly placed on a game board. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
+              ghLink="https://github.com/lakhan0007/Pairing_Game_project-23"
+              demoLink="https://lakhan0007.github.io/Pairing_Game_project-23/"
             />
           </Col>
           <Col md={4} className="project-card">
