@@ -6,7 +6,7 @@ import Flash from "../../Assets/Projects/flash.png";
 import List from "../../Assets/Projects/list.png";
 import Webtrack from "../../Assets/Projects/Webtrack.png";
 import Clock from "../../Assets/Projects/clock1.jpg";
-import editor from "../../Assets/Projects/codeEditor.png";
+import Sticky from "../../Assets/Projects/sticky-notes.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -28,7 +28,7 @@ function Projects() {
               title="WebTrack"
               description="My personal blog page build with JavaScript and Tailwind Css which takes the content from makdown files and renders it using JavaScript. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/lakhan0007/Webtrack"
-              demoLink="https://lakhan0007.github.io/Webtrack/ch/"
+              demoLink="https://lakhan0007.github.io/Webtrack/"
             />
           </Col>
 
@@ -67,6 +67,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Sticky}
+              isBlog={false}
+              title="Sticky-Notes"
+              description="A sticky notes React.js project is a simple web application that allows users to create and manage digital sticky notes on a virtual board. The application is built using the React.js framework, a popular JavaScript library for building user interfaces.."
+              ghLink="https://github.com/lakhan0007/sticky_Notes_project-13"
+              demoLink="https://lakhan0007.github.io/sticky_Notes_project-13/" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
@@ -116,17 +127,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
