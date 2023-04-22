@@ -7,6 +7,7 @@ import List from "../../Assets/Projects/list.png";
 import Webtrack from "../../Assets/Projects/Webtrack.png";
 import Clock from "../../Assets/Projects/clock1.jpg";
 import Sticky from "../../Assets/Projects/sticky-notes.png";
+import Music from "../../Assets/Projects/Music.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -78,13 +79,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Music}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
+              title="Music Player"
+              description="A Music Player ReactJS project is a web-based application that allows users to play and manage music tracks. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
+              ghLink="https://github.com/lakhan0007/Music-Player"
+              demoLink="https://lakhan0007.github.io/Music-Player/" 
+             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
