@@ -10,6 +10,7 @@ import Sticky from "../../Assets/Projects/sticky-notes.png";
 import Music from "../../Assets/Projects/Music.png";
 import Game from "../../Assets/Projects/Game.png";
 import Dragon from "../../Assets/Projects/dragon.png";
+import Toe from "../../Assets/Projects/toe.png";
 import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -111,15 +112,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Toe}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Tic Tac Toe"
+              description="A Tic Tac Toe Game ReactJS project is a web-based game application that allows two players to play the classic game of Tic Tac Toe. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
+              ghLink="https://github.com/lakhan0007/Tic_Tac_To_Project-25"
+              demoLink="https://lakhan0007.github.io/Tic_Tac_To_Project-25/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -128,7 +129,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
         </Row>
       </Container>
