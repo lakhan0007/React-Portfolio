@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Lakhan Singh Rathore </span>
             from <span className="purple"> Jaipur, Rajasthan.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />I am a completed BCA with a specialization in Web Development and Computing at [Name of your university Agarwal P.G College]. My coursework focuses on developing skills in both theoretical and practical aspects of computer science, including programming, data structures, algorithms, calculus, linear algebra, and discrete mathematics.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
