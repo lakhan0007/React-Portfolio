@@ -42,8 +42,8 @@ function Projects() {
               isBlog={false}
               title="To-Do-List"
               description="To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-              ghLink="https://github.com/lakhan0007/To-Do-List_project-12"
-              demoLink="https://lakhan0007.github.io/To-Do-List_project-12/"
+              ghLink="https://github.com/lakhan0007/To-Do-List"
+              demoLink="https://lakhan0007.github.io/To-Do-List/"
             />
           </Col>
 
