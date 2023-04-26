@@ -9,9 +9,9 @@ import Clock from "../../Assets/Projects/clock1.jpg";
 import Sticky from "../../Assets/Projects/sticky-notes.png";
 import Music from "../../Assets/Projects/Music.png";
 import Game from "../../Assets/Projects/Game.png";
+import StopWatch from "../../Assets/Projects/StopWatch.png";
 import Dragon from "../../Assets/Projects/dragon.png";
 import Toe from "../../Assets/Projects/toe.png";
-import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
   return (
@@ -90,6 +90,18 @@ function Projects() {
               demoLink="https://lakhan0007.github.io/Music-Player/" 
              />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={StopWatch}
+              isBlog={false}
+              title="Stop Watch"
+              description="A stopwatch is a timekeeping device that is used to measure the amount of time elapsed between its activation and deactivation. It typically has two buttons, one to start or resume the timer and another to stop or reset it."
+              ghLink="https://github.com/lakhan0007/Stop-Watch"
+              demoLink="https://lakhan0007.github.io/Stop-Watch/" 
+             />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Game}
