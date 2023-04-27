@@ -12,6 +12,7 @@ import Game from "../../Assets/Projects/Game.png";
 import StopWatch from "../../Assets/Projects/StopWatch.png";
 import Dragon from "../../Assets/Projects/dragon.png";
 import Toe from "../../Assets/Projects/toe.png";
+import API from "../../Assets/Projects/Api.png";
 
 function Projects() {
   return (
@@ -99,6 +100,17 @@ function Projects() {
               description="A stopwatch is a timekeeping device that is used to measure the amount of time elapsed between its activation and deactivation. It typically has two buttons, one to start or resume the timer and another to stop or reset it."
               ghLink="https://github.com/lakhan0007/Stop-Watch"
               demoLink="https://lakhan0007.github.io/Stop-Watch/" 
+             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={API}
+              isBlog={false}
+              title="API Search"
+              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
+              ghLink="https://github.com/lakhan0007/Unsplash-API"
+              demoLink="https://lakhan0007.github.io/Unsplash_API_project-16/" 
              />
           </Col>
 
