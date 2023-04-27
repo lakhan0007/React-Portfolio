@@ -13,6 +13,7 @@ import StopWatch from "../../Assets/Projects/StopWatch.png";
 import Dragon from "../../Assets/Projects/dragon.png";
 import Toe from "../../Assets/Projects/toe.png";
 import API from "../../Assets/Projects/Api.png";
+import Math from "../../Assets/Projects/Math.png";
 
 function Projects() {
   return (
@@ -110,7 +111,18 @@ function Projects() {
               title="API Search"
               description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
               ghLink="https://github.com/lakhan0007/Unsplash-API"
-              demoLink="https://lakhan0007.github.io/Unsplash_API_project-16/" 
+              demoLink="https://lakhan0007.github.io/Unsplash-API/" 
+             />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Math}
+              isBlog={false}
+              title="Math For Kids"
+              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
+              ghLink="https://github.com/lakhan0007/Add-Project"
+              demoLink="https://lakhan0007.github.io/Add-Project/" 
              />
           </Col>
 
