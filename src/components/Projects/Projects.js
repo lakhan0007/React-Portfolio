@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Flash from "../../Assets/Projects/flash.png";
 import List from "../../Assets/Projects/list.png";
 import Webtrack from "../../Assets/Projects/Webtrack.png";
-import Clock from "../../Assets/Projects/clock1.jpg";
+import Clock from "../../Assets/Projects/Clock.png";
 import Sticky from "../../Assets/Projects/sticky-notes.png";
 import Music from "../../Assets/Projects/Music.png";
 import Game from "../../Assets/Projects/Game.png";
@@ -32,7 +32,7 @@ function Projects() {
               imgPath={Webtrack}
               isBlog={false}
               title="WebTrack"
-              description="My personal blog page build with JavaScript and Tailwind Css which takes the content from makdown files and renders it using JavaScript. Supports dark mode and easy to write blogs using markdown."
+              description="My personal blog page build with JavaScript and Css which takes the content from makdown files and renders it using JavaScript. Easy to write blogs using markdown."
               ghLink="https://github.com/lakhan0007/Webtrack"
               demoLink="https://lakhan0007.github.io/Webtrack/"
             />
@@ -78,7 +78,7 @@ function Projects() {
               title="Sticky-Notes"
               description="A sticky notes React.js project is a simple web application that allows users to create and manage digital sticky notes on a virtual board. The application is built using the React.js framework, a popular JavaScript library for building user interfaces.."
               ghLink="https://github.com/lakhan0007/sticky_Notes_project-13"
-              demoLink="https://lakhan0007.github.io/sticky_Notes_project-13/" 
+              demoLink="https://lakhan0007.github.io/sticky_Notes_project-13/"
             />
           </Col>
 
@@ -89,8 +89,8 @@ function Projects() {
               title="Music Player"
               description="A Music Player ReactJS project is a web-based application that allows users to play and manage music tracks. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
               ghLink="https://github.com/lakhan0007/Music-Player"
-              demoLink="https://lakhan0007.github.io/Music-Player/" 
-             />
+              demoLink="https://lakhan0007.github.io/Music-Player/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -100,8 +100,8 @@ function Projects() {
               title="Stop Watch"
               description="A stopwatch is a timekeeping device that is used to measure the amount of time elapsed between its activation and deactivation. It typically has two buttons, one to start or resume the timer and another to stop or reset it."
               ghLink="https://github.com/lakhan0007/Stop-Watch"
-              demoLink="https://lakhan0007.github.io/Stop-Watch/" 
-             />
+              demoLink="https://lakhan0007.github.io/Stop-Watch/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -111,8 +111,8 @@ function Projects() {
               title="API Search"
               description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
               ghLink="https://github.com/lakhan0007/Unsplash-API"
-              demoLink="https://lakhan0007.github.io/Unsplash-API/" 
-             />
+              demoLink="https://lakhan0007.github.io/Unsplash-API/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -122,8 +122,8 @@ function Projects() {
               title="Math For Kids"
               description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
               ghLink="https://github.com/lakhan0007/Add-Project"
-              demoLink="https://lakhan0007.github.io/Add-Project/" 
-             />
+              demoLink="https://lakhan0007.github.io/Add-Project/"
+            />
           </Col>
 
           <Col md={4} className="project-card">
@@ -156,17 +156,6 @@ function Projects() {
               demoLink="https://lakhan0007.github.io/Tic_Tac_To_Project-25/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col> */}
-
         </Row>
       </Container>
     </Container>
