@@ -14,6 +14,7 @@ import Dragon from "../../Assets/Projects/dragon.png";
 import Toe from "../../Assets/Projects/toe.png";
 import API from "../../Assets/Projects/Api.png";
 import Math from "../../Assets/Projects/Math.png";
+import Quotes from "../../Assets/Projects/quotes.png";
 
 function Projects() {
   return (
@@ -128,10 +129,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Quotes}
+              isBlog={false}
+              title="Random Quotes"
+              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
+              ghLink="https://github.com/lakhan0007/Quotes"
+              demoLink="https://lakhan0007.github.io/Quotes/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Game}
               isBlog={false}
               title="Pairing Game"
-              description="A Pairing Game ReactJS project is a web-based game application that challenges users to match pairs of cards that are randomly placed on a game board. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
+              description="Some Random Quote Generators may allow users to filter the quotes by author, category, or keyword. They may also include a feature to share the quote on social media or save it for later reference."
               ghLink="https://github.com/lakhan0007/Pairing_Game_project-23"
               demoLink="https://lakhan0007.github.io/Pairing_Game_project-23/"
             />
