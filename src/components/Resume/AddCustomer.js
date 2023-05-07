@@ -94,7 +94,7 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
   return (
 	<Modal show={show} onHide={handleClose}>
 	<Modal.Header closeButton>
-	  <Modal.Title>Modal heading</Modal.Title>
+	  <Modal.Title>Fill the Form</Modal.Title>
 	</Modal.Header>
 	<Modal.Body>
 	  <Form>
