@@ -15,14 +15,16 @@ export default function AddCustomer({show, handleClose}) {
     setMessage(true);
     emailjs
       .sendForm(
-        "service_l3wnfrk",
-        "template_uuuk158",
+        "service_05o6a8u",
+        "template_kmms3gh",
         formRef.current,
-        "cFnjAcg7kdp3Vvd5Y"
+        "Yv53WyiFO58_nVrAc"
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log("message sent");
+		  
         },
         (error) => {
           console.log(error.text);
@@ -97,10 +99,11 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 	  <Modal.Title>Fill the Form</Modal.Title>
 	</Modal.Header>
 	<Modal.Body>
-	  <Form>
+	  <Form onSubmit={handleSubmit}>
 	  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 		  <Form.Label>Name</Form.Label>
 		  <Form.Control
+		  	name="user_name"
 			type="text"
 			placeholder="Enter Your Name"
 			autoFocus
@@ -111,6 +114,7 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 		<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
 		  <Form.Label>Email address</Form.Label>
 		  <Form.Control
+		  	name="user_email"
 			type="email"
 			placeholder="example123@gamil.com"
 			autoFocus
@@ -119,6 +123,7 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 		  {fieldError?.email}
 		</Form.Group>
 		<Form.Group
+		  name="message"
 		  className="mb-3"
 		  controlId="exampleForm.ControlTextarea1"
 		>
@@ -132,8 +137,8 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 	  <Button variant="secondary" onClick={handleClose}>
 		Close
 	  </Button>
-	  <Button variant="primary" onClick={()=>checkFields(fields)}>
-		Save Changes
+	  <Button variant="primary" onClick={()=>checkFields(fields)} >
+		Submit
 	  </Button>
 	</Modal.Footer>
   </Modal>
