@@ -97,7 +97,7 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
   return (
     <Modal show={show} onHide={handleClose}>
     <Modal.Header closeButton>
-      <Modal.Title>FILL WITH DOWNLOAD</Modal.Title>
+      <Modal.Title>FILL TO DOWNLOAD</Modal.Title>
     </Modal.Header>
     <Modal.Body>
       <form className="register-form" ref={formRef} onSubmit={handleSubmit}>
