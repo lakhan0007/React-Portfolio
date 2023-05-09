@@ -24,10 +24,11 @@ export default function AddCustomer({show, handleClose}) {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-		  
+          
         },
         (error) => {
           console.log(error.text);
+          console.log("message Failed");
         }
       );
 
@@ -94,54 +95,54 @@ const regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
     }
   };
   return (
-	<Modal show={show} onHide={handleClose}>
-	<Modal.Header closeButton>
-	  <Modal.Title>Fill the Form</Modal.Title>
-	</Modal.Header>
-	<Modal.Body>
-	  <Form onSubmit={handleSubmit}>
-	  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-		  <Form.Label>Name</Form.Label>
-		  <Form.Control
-		  	name="user_name"
-			type="text"
-			placeholder="Enter Your Name"
-			autoFocus
-			onChange={(e)=>fillFields("name",e.target.value)}
-		  />
-		  {fieldError?.name}
-		</Form.Group>
-		<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-		  <Form.Label>Email address</Form.Label>
-		  <Form.Control
-		  	name="user_email"
-			type="email"
-			placeholder="example123@gamil.com"
-			autoFocus
-			onChange={(e)=>fillFields("email",e.target.value)}
-		  />
-		  {fieldError?.email}
-		</Form.Group>
-		<Form.Group
-		  name="message"
-		  className="mb-3"
-		  controlId="exampleForm.ControlTextarea1"
-		>
-		  <Form.Label>Message</Form.Label>
-		  <Form.Control as="textarea" rows={3} onChange={(e)=>fillFields("message",e.target.value)}/>
-		</Form.Group>
-		{fieldError?.message}
-	  </Form>
-	</Modal.Body>
-	<Modal.Footer>
-	  <Button variant="secondary" onClick={handleClose}>
-		Close
-	  </Button>
-	  <Button variant="primary" onClick={()=>checkFields(fields)} >
-		Submit
-	  </Button>
-	</Modal.Footer>
-  </Modal>
+    <Modal show={show} onHide={handleClose}>
+    <Modal.Header closeButton>
+      <Modal.Title>FILL WITH DOWNLOAD</Modal.Title>
+    </Modal.Header>
+    <Modal.Body>
+      <form className="register-form" ref={formRef} onSubmit={handleSubmit}>
+        <input
+          name="user_name"
+          className="form-field"
+          type="text"
+          placeholder="First Name"
+          onChange={(e) => fillFields("name", e.target.value)}
+        />
+        {fieldError?.name}
+
+        <input
+          name="user_email"
+          className="form-field"
+          type="email"
+          placeholder="Email"
+          onChange={(e) => fillFields("email", e.target.value)}
+        />
+        {fieldError?.email}
+
+        <input
+          name="message"
+          className="form-field"
+          type="textarea"
+          placeholder="Message"
+          onChange={(e) => fillFields("message", e.target.value)}
+        />
+        {fieldError?.message}
+        
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button
+            variant="primary"
+            type="submit"
+            onClick={() => checkFields(fields)}
+          >
+            Submit
+          </Button>
+        </Modal.Footer>
+      </form>
+    </Modal.Body>
+    </Modal>
 
 );
 }
