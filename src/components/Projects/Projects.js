@@ -28,6 +28,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+         {/* 1 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Webtrack}
@@ -39,6 +41,7 @@ function Projects() {
             />
           </Col>
 
+        {/* 2 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={List}
@@ -50,6 +53,7 @@ function Projects() {
             />
           </Col>
 
+        {/* 3  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Flash}
@@ -57,10 +61,11 @@ function Projects() {
               title="FlashCard"
               description="Flashcards are often used to memorize and retain important information such as vocabulary, formulas, historical dates, and scientific concepts. Flashcards can be a helpful tool for test preparation, as they allow students to review and quiz themselves on key concepts and information."
               ghLink="https://github.com/lakhan0007/Flashcard_project-11"
-              demoLink="https://lakhan0007.github.io/Flashcard_project-11/"
+              demoLink="https://lakhan0007.github.io/Flashcard/"
             />
           </Col>
 
+        {/*4 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Clock}
@@ -68,10 +73,11 @@ function Projects() {
               title="Analog Clock"
               description="An analog clock project can also be created using React JS, a popular JavaScript library for building user interfaces. Here's how you can create an analog clock project using React JS:"
               ghLink="https://github.com/lakhan0007/Analog-clock_project-21"
-              demoLink="https://lakhan0007.github.io/Analog-clock_project-21/"
+              demoLink="https://lakhan0007.github.io/Analog-clock/"
             />
           </Col>
 
+        {/* 5  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Sticky}
@@ -79,10 +85,11 @@ function Projects() {
               title="Sticky-Notes"
               description="A sticky notes React.js project is a simple web application that allows users to create and manage digital sticky notes on a virtual board. The application is built using the React.js framework, a popular JavaScript library for building user interfaces.."
               ghLink="https://github.com/lakhan0007/sticky_Notes_project-13"
-              demoLink="https://lakhan0007.github.io/sticky_Notes_project-13/"
+              demoLink="https://lakhan0007.github.io/sticky-Notes/"
             />
           </Col>
 
+      {/* 6  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Music}
@@ -94,6 +101,7 @@ function Projects() {
             />
           </Col>
 
+      {/* 7  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={StopWatch}
@@ -105,6 +113,7 @@ function Projects() {
             />
           </Col>
 
+      {/* 8  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={API}
@@ -116,6 +125,7 @@ function Projects() {
             />
           </Col>
 
+        {/* 9 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Math}
@@ -127,6 +137,7 @@ function Projects() {
             />
           </Col>
 
+        {/* 10  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Quotes}
@@ -138,6 +149,7 @@ function Projects() {
             />
           </Col>
 
+        {/* 11 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Game}
@@ -145,9 +157,11 @@ function Projects() {
               title="Pairing Game"
               description="Some Random Quote Generators may allow users to filter the quotes by author, category, or keyword. They may also include a feature to share the quote on social media or save it for later reference."
               ghLink="https://github.com/lakhan0007/Pairing_Game_project-23"
-              demoLink="https://lakhan0007.github.io/Pairing_Game_project-23/"
+              demoLink="https://lakhan0007.github.io/Pairing-Game/"
             />
           </Col>
+
+          {/* 12  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Dragon}
@@ -155,9 +169,11 @@ function Projects() {
               title="Kill the Dragon Game"
               description="A Kill the Dragon Game ReactJS project is a web-based game application that challenges users to defeat a dragon by shooting arrows at it. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
               ghLink="https://github.com/lakhan0007/Kill_Dragon_Project-24"
-              demoLink="https://lakhan0007.github.io/Kill_Dragon_Project-24/"
+              demoLink="https://lakhan0007.github.io/Kill-Dragon/"
             />
           </Col>
+
+          {/* 13  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Toe}
@@ -165,7 +181,7 @@ function Projects() {
               title="Tic Tac Toe"
               description="A Tic Tac Toe Game ReactJS project is a web-based game application that allows two players to play the classic game of Tic Tac Toe. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
               ghLink="https://github.com/lakhan0007/Tic_Tac_To_Project-25"
-              demoLink="https://lakhan0007.github.io/Tic_Tac_To_Project-25/"
+              demoLink="https://lakhan0007.github.io/Tic-Tac-Toe/"
             />
           </Col>
         </Row>
