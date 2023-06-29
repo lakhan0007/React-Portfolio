@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+// JavaScript
 import Flash from "../../Assets/Projects/flash.png";
 import List from "../../Assets/Projects/list.png";
 import Webtrack from "../../Assets/Projects/Webtrack.png";
@@ -17,7 +19,13 @@ import Math from "../../Assets/Projects/Math.png";
 import Quotes from "../../Assets/Projects/quotes.png";
 import Burgur from "../../Assets/Projects/Burgur.png";
 import Digital from "../../Assets/Projects/digital.png";
+
+// Reactjs
 import Rock from "../../Assets/Projects/rock.jpg";
+
+// Nodejs
+import Json from "../../Assets/Projects/json.png";
+import Mongoose from "../../Assets/Projects/mongoose.png";
 
 
 function Projects() {
@@ -29,10 +37,11 @@ function Projects() {
           My JavaScript<strong className="purple"> Project</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few JavaScript projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        {/* JavaScript Project Start */}
          {/* 1 */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -214,13 +223,47 @@ function Projects() {
               demoLink="https://lakhan0007.github.io/Tic-Tac-Toe/"
             />
           </Col>
+          {/* JavaScript Project End */}
 
+
+        {/* NodeJS Project start */}
+        <h1 className="project-heading">
+          My NodeJs <strong className="purple">Projects </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few NodeJs projects I've worked on recently.
+        </p>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Json}
+              isBlog={false}
+              title="Json Database"
+              description="The JSON Database Management System is a project that leverages Node.js to create a lightweight, file-based database system using JSON as the storage format. The system allows users to perform CRUD (Create, Read, Update, Delete) operations on JSON data, providing a simple and efficient solution for managing structured data."
+              ghLink="https://github.com/lakhan0007/NodeJs-JSON"
+              demoLink="https://nodejson.onrender.com/products"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Mongoose}
+              isBlog={false}
+              title="Mongoose Database"
+              description="The Mongoose Database Project in Node.js is a web-based application that utilizes the Mongoose library to interact with a MongoDB database. It allows users to perform CRUD (Create, Read, Update, Delete) operations on collections and manage data effectively."
+              ghLink="https://github.com/lakhan0007/MongoDB"
+              demoLink="https://mongo-wmhx.onrender.com/"
+            />
+        </Col>
+          {/* NodeJS Project End */}
+
+           {/* ReactJs Project Start */}
           <h1 className="project-heading">
           My React <strong className="purple">Projects </strong>
         </h1>
-        {/* <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p> */}
+        <p style={{ color: "white" }}>
+          Here are a few React projects I've worked on recently.
+        </p>
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -231,7 +274,11 @@ function Projects() {
               ghLink="https://github.com/lakhan0007/BurgerBuilder"
               demoLink="https://burger-builder-git-master-lakhan0007.vercel.app/"
             />
-          </Col>
+        </Col>
+        {/* ReactJs Project End */}
+
+      
+
         </Row>
       </Container>
     </Container>
