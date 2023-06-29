@@ -17,6 +17,7 @@ import Math from "../../Assets/Projects/Math.png";
 import Quotes from "../../Assets/Projects/quotes.png";
 import Burgur from "../../Assets/Projects/Burgur.png";
 import Digital from "../../Assets/Projects/digital.png";
+import Rock from "../../Assets/Projects/rock.jpg";
 
 
 function Projects() {
@@ -44,115 +45,7 @@ function Projects() {
             />
           </Col>
 
-        {/* 2 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={List}
-              isBlog={false}
-              title="To-Do-List"
-              description="To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-              ghLink="https://github.com/lakhan0007/To-Do-List"
-              demoLink="https://lakhan0007.github.io/To-Do-List/"
-            />
-          </Col>
-
-        {/* 3  */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Flash}
-              isBlog={false}
-              title="FlashCard"
-              description="Flashcards are often used to memorize and retain important information such as vocabulary, formulas, historical dates, and scientific concepts. Flashcards can be a helpful tool for test preparation, as they allow students to review and quiz themselves on key concepts and information."
-              ghLink="https://github.com/lakhan0007/Flashcard_project-11"
-              demoLink="https://lakhan0007.github.io/Flashcard/"
-            />
-          </Col>
-
-        {/* 4 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Digital}
-              isBlog={false}
-              title="Digital Clock"
-              description="The Digital Clock application is a web-based tool that displays the current time in a digital format. It provides users with a real-time representation of the current hour, minutes, and seconds."
-              ghLink="https://github.com/lakhan0007/Digital-Clock"
-              demoLink="https://lakhan0007.github.io/Digital-Clock/"
-            />
-          </Col>
-
-        {/*4 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Clock}
-              isBlog={false}
-              title="Analog Clock"
-              description="An analog clock project can also be created using React JS, a popular JavaScript library for building user interfaces. Here's how you can create an analog clock project using React JS:"
-              ghLink="https://github.com/lakhan0007/Analog-clock_project-21"
-              demoLink="https://lakhan0007.github.io/Analog-clock/"
-            />
-          </Col>
-
-        {/* 5  */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Sticky}
-              isBlog={false}
-              title="Sticky-Notes"
-              description="A sticky notes React.js project is a simple web application that allows users to create and manage digital sticky notes on a virtual board. The application is built using the React.js framework, a popular JavaScript library for building user interfaces.."
-              ghLink="https://github.com/lakhan0007/sticky_Notes_project-13"
-              demoLink="https://lakhan0007.github.io/sticky-Notes/"
-            />
-          </Col>
-
-      {/* 6  */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Music}
-              isBlog={false}
-              title="Music Player"
-              description="A Music Player ReactJS project is a web-based application that allows users to play and manage music tracks. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
-              ghLink="https://github.com/lakhan0007/Music-Player"
-              demoLink="https://lakhan0007.github.io/Music-Player/"
-            />
-          </Col>
-
-      {/* 7  */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={StopWatch}
-              isBlog={false}
-              title="Stop Watch"
-              description="A stopwatch is a timekeeping device that is used to measure the amount of time elapsed between its activation and deactivation. It typically has two buttons, one to start or resume the timer and another to stop or reset it."
-              ghLink="https://github.com/lakhan0007/Stop-Watch"
-              demoLink="https://lakhan0007.github.io/Stop-Watch/"
-            />
-          </Col>
-
-      {/* 8  */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={API}
-              isBlog={false}
-              title="API Search"
-              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
-              ghLink="https://github.com/lakhan0007/Unsplash-API"
-              demoLink="https://lakhan0007.github.io/Unsplash-API/"
-            />
-          </Col>
-
-        {/* 9 */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Math}
-              isBlog={false}
-              title="Math For Kids"
-              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
-              ghLink="https://github.com/lakhan0007/Add-Project"
-              demoLink="https://lakhan0007.github.io/Add-Project/"
-            />
-          </Col>
-
-        {/* 10  */}
+          {/* 2  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Quotes}
@@ -164,7 +57,117 @@ function Projects() {
             />
           </Col>
 
+        {/* 3 */}
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Digital}
+              isBlog={false}
+              title="Digital Clock"
+              description="The Digital Clock application is a web-based tool that displays the current time in a digital format. It provides users with a real-time representation of the current hour, minutes, and seconds."
+              ghLink="https://github.com/lakhan0007/Digital-Clock"
+              demoLink="https://lakhan0007.github.io/Digital-Clock/"
+            />
+          </Col>
+          
+        {/*4 */}
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Clock}
+              isBlog={false}
+              title="Analog Clock"
+              description="An analog clock project can also be created using React JS, a popular JavaScript library for building user interfaces. Here's how you can create an analog clock project using React JS:"
+              ghLink="https://github.com/lakhan0007/Analog-clock_project-21"
+              demoLink="https://lakhan0007.github.io/Analog-clock/"
+            />
+          </Col>
+
+          {/* 5 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={StopWatch}
+              isBlog={false}
+              title="Stop Watch"
+              description="A stopwatch is a timekeeping device that is used to measure the amount of time elapsed between its activation and deactivation. It typically has two buttons, one to start or resume the timer and another to stop or reset it."
+              ghLink="https://github.com/lakhan0007/Stop-Watch"
+              demoLink="https://lakhan0007.github.io/Stop-Watch/"
+            />
+          </Col>
+
+          {/* 6  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={API}
+              isBlog={false}
+              title="API Search"
+              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
+              ghLink="https://github.com/lakhan0007/Unsplash-API"
+              demoLink="https://lakhan0007.github.io/Unsplash-API/"
+            />
+          </Col>
+
+        {/* 7 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={List}
+              isBlog={false}
+              title="To-Do-List"
+              description="To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
+              ghLink="https://github.com/lakhan0007/To-Do-List"
+              demoLink="https://lakhan0007.github.io/To-Do-List/"
+            />
+          </Col>
+
+        {/* 8 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Flash}
+              isBlog={false}
+              title="FlashCard"
+              description="Flashcards are often used to memorize and retain important information such as vocabulary, formulas, historical dates, and scientific concepts. Flashcards can be a helpful tool for test preparation, as they allow students to review and quiz themselves on key concepts and information."
+              ghLink="https://github.com/lakhan0007/Flashcard_project-11"
+              demoLink="https://lakhan0007.github.io/Flashcard/"
+            />
+          </Col>
+
+
+
+        {/* 9  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Sticky}
+              isBlog={false}
+              title="Sticky-Notes"
+              description="A sticky notes React.js project is a simple web application that allows users to create and manage digital sticky notes on a virtual board. The application is built using the React.js framework, a popular JavaScript library for building user interfaces.."
+              ghLink="https://github.com/lakhan0007/sticky_Notes_project-13"
+              demoLink="https://lakhan0007.github.io/sticky-Notes/"
+            />
+          </Col>
+
+      {/* 10 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Music}
+              isBlog={false}
+              title="Music Player"
+              description="A Music Player ReactJS project is a web-based application that allows users to play and manage music tracks. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
+              ghLink="https://github.com/lakhan0007/Music-Player"
+              demoLink="https://lakhan0007.github.io/Music-Player/"
+            />
+          </Col>
+
         {/* 11 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Math}
+              isBlog={false}
+              title="Math For Kids"
+              description="A project in React.js for API searching can be developed to allow users to search for different APIs and get the relevant results based on their search query. The project can be developed using various APIs like RapidAPI, ProgrammableWeb, or any other public API directory."
+              ghLink="https://github.com/lakhan0007/Add-Project"
+              demoLink="https://lakhan0007.github.io/Add-Project/"
+            />
+          </Col>
+
+        {/* 12 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Game}
@@ -176,7 +179,19 @@ function Projects() {
             />
           </Col>
 
-          {/* 12  */}
+        {/* 13 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Rock}
+              isBlog={false}
+              title="Rock Paper Scissor"
+              description="The Rock Paper Scissors game is a web-based application that allows users to play the classic game against the computer. Players can make their move by selecting either rock, paper, or scissors, and the computer will generate its move."
+              ghLink="https://github.com/lakhan0007/Rock-paper"
+              demoLink="https://lakhan0007.github.io/Rock-paper/"
+            />
+          </Col>
+
+          {/* 14  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Dragon}
@@ -188,7 +203,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 13  */}
+          {/* 15  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Toe}
