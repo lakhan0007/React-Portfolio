@@ -15,6 +15,9 @@ import Toe from "../../Assets/Projects/toe.png";
 import API from "../../Assets/Projects/Api.png";
 import Math from "../../Assets/Projects/Math.png";
 import Quotes from "../../Assets/Projects/quotes.png";
+import Burgur from "../../Assets/Projects/Burgur.png";
+import Digital from "../../Assets/Projects/digital.png";
+
 
 function Projects() {
   return (
@@ -22,7 +25,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My JavaScript<strong className="purple"> Project</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -62,6 +65,18 @@ function Projects() {
               description="Flashcards are often used to memorize and retain important information such as vocabulary, formulas, historical dates, and scientific concepts. Flashcards can be a helpful tool for test preparation, as they allow students to review and quiz themselves on key concepts and information."
               ghLink="https://github.com/lakhan0007/Flashcard_project-11"
               demoLink="https://lakhan0007.github.io/Flashcard/"
+            />
+          </Col>
+
+        {/* 4 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Digital}
+              isBlog={false}
+              title="Digital Clock"
+              description="The Digital Clock application is a web-based tool that displays the current time in a digital format. It provides users with a real-time representation of the current hour, minutes, and seconds."
+              ghLink="https://github.com/lakhan0007/Digital-Clock"
+              demoLink="https://lakhan0007.github.io/Digital-Clock/"
             />
           </Col>
 
@@ -182,6 +197,24 @@ function Projects() {
               description="A Tic Tac Toe Game ReactJS project is a web-based game application that allows two players to play the classic game of Tic Tac Toe. The application is built using the ReactJS library, which is a popular JavaScript library used for building user interfaces."
               ghLink="https://github.com/lakhan0007/Tic_Tac_To_Project-25"
               demoLink="https://lakhan0007.github.io/Tic-Tac-Toe/"
+            />
+          </Col>
+
+          <h1 className="project-heading">
+          My React <strong className="purple">Projects </strong>
+        </h1>
+        {/* <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p> */}
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Burgur}
+              isBlog={false}
+              title="Burgur Builder"
+              description="The Burger Builder application is a web-based platform that allows users to build and customize their own burgers. Users can select various ingredients, customize the burger to their liking, and place an order."
+              ghLink="https://github.com/lakhan0007/BurgerBuilder"
+              demoLink="https://burger-builder-git-master-lakhan0007.vercel.app/"
             />
           </Col>
         </Row>
