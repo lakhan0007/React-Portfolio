@@ -25,6 +25,8 @@ import Rock from "../../Assets/Projects/rock.jpg";
 
 // Nodejs
 import Json from "../../Assets/Projects/json.png";
+import SQL from "../../Assets/Projects/sql.png";
+import Mongoose from "../../Assets/Projects/mongoose.png";
 import Mongoose from "../../Assets/Projects/mongoose.png";
 
 
@@ -138,9 +140,7 @@ function Projects() {
             />
           </Col>
 
-
-
-        {/* 9  */}
+         {/* 9  */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Sticky}
@@ -241,6 +241,17 @@ function Projects() {
               title="Json Database"
               description="The JSON Database Management System is a project that leverages Node.js to create a lightweight, file-based database system using JSON as the storage format. The system allows users to perform CRUD (Create, Read, Update, Delete) operations on JSON data, providing a simple and efficient solution for managing structured data."
               ghLink="https://github.com/lakhan0007/NodeJs-JSON"
+              demoLink="https://nodejson.onrender.com/products"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SQL}
+              isBlog={false}
+              title="SQL Database"
+              description="The SQL Database Project in Node.js is a web-based application that utilizes Node.js and an SQL database to create a robust and scalable database management system. It allows users to perform CRUD (Create, Read, Update, Delete) operations on SQL databases, providing a reliable solution for managing structured data."
+              ghLink="https://github.com/lakhan0007/Node-SQL"
               demoLink="https://nodejson.onrender.com/products"
             />
         </Col>
