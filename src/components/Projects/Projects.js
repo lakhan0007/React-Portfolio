@@ -22,12 +22,13 @@ import Digital from "../../Assets/Projects/digital.png";
 
 // Reactjs
 import Rock from "../../Assets/Projects/rock.jpg";
+import Textutils from "../../Assets/Projects/text.png";
 
 // Nodejs
 import Json from "../../Assets/Projects/json.png";
 import SQL from "../../Assets/Projects/sql.png";
 import Mongoose from "../../Assets/Projects/mongoose.png";
-import Mongoose from "../../Assets/Projects/mongoose.png";
+// import Mongoose from "../../Assets/Projects/mongoose.png";
 
 
 function Projects() {
@@ -284,6 +285,16 @@ function Projects() {
               description="The Burger Builder application is a web-based platform that allows users to build and customize their own burgers. Users can select various ingredients, customize the burger to their liking, and place an order."
               ghLink="https://github.com/lakhan0007/BurgerBuilder"
               demoLink="https://burger-builder-git-master-lakhan0007.vercel.app/"
+            />
+        </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Textutils}
+              isBlog={false}
+              title="Textutils"
+              description="The Textutils project is a web application developed using the React.js framework. It aims to provide various text manipulation and analysis functionalities to users. The project utilizes React's component-based architecture to create reusable and interactive UI elements."
+              ghLink="https://github.com/lakhan0007/textutils"
+              demoLink="https://textutils-zeta-tan.vercel.app/"
             />
         </Col>
         {/* ReactJs Project End */}
