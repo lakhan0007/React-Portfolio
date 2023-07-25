@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import Resume1 from "../../Assets/resume/resume1.jpg";
-import Resume2 from "../../Assets/resume/resume2.jpg";
+import Resume from "../../Assets/resume/resume.jpg";
+// import Resume2 from "../../Assets/resume/resume2.jpg";
 
 
 import pdf from "../../Assets/../Assets/Lakhan_Resume.pdf";
@@ -36,12 +36,12 @@ function ResumeNew() {
       <Container className="resume-image">
 
               <div className="resumeLogo">
-                <img src={Resume1} alt="BigCo Inc. logo"/>
+                <img src={Resume} alt="BigCo Inc. logo"/>
               </div>
-              <div className="resumeLogo">
+              {/* <div className="resumeLogo">
 
                 <img src={Resume2} alt="BigCo Inc. logo"/>
-              </div>
+              </div> */}
         
       </Container>
 
