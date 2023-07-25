@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { Col, Form } from 'react-bootstrap';
-import pdf from "../../Assets/../Assets/Lakhan_Resume.pdf";
+import pdf from "../../Assets/../Assets/Lakhanesume.pdf";
 
 export default function AddCustomer({show, handleClose}) {
 	const [message, setMessage] = useState(false);

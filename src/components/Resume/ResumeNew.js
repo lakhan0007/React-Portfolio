@@ -6,7 +6,7 @@ import Resume from "../../Assets/resume/resume.jpg";
 // import Resume2 from "../../Assets/resume/resume2.jpg";
 
 
-import pdf from "../../Assets/../Assets/Lakhan_Resume.pdf";
+// import pdf from "../../Assets/../Assets/Lakhan_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -14,7 +14,7 @@ import AddCustomer from "./AddCustomer";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1GOrqny6glbwNv2jTUmru3w1zbaHw0AAU/view?usp=sharing";
+  "https://drive.google.com/drive/u/0/my-drive";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
