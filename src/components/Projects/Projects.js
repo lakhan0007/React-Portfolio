@@ -23,6 +23,7 @@ import Digital from "../../Assets/Projects/digital.png";
 // Reactjs
 import Rock from "../../Assets/Projects/rock.jpg";
 import Textutils from "../../Assets/Projects/text.png";
+import Weather from "../../Assets/Projects/weather.png";
 
 // Nodejs
 import Json from "../../Assets/Projects/json.png";
@@ -295,6 +296,17 @@ function Projects() {
               description="The Textutils project is a web application developed using the React.js framework. It aims to provide various text manipulation and analysis functionalities to users. The project utilizes React's component-based architecture to create reusable and interactive UI elements."
               ghLink="https://github.com/lakhan0007/textutils"
               demoLink="https://textutils-zeta-tan.vercel.app/"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Weather}
+              isBlog={false}
+              title="Weather API"
+              description="This weather application is a simple web app that allows users to search for weather conditions in any location in the world. The app uses the OpenWeatherMap API to retrieve weather data, and it is built using React JS.."
+              ghLink="https://github.com/lakhan0007/Weather-App"
+              demoLink="https://weather-app-psi-ashy.vercel.app/"
             />
         </Col>
         {/* ReactJs Project End */}
